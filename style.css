@@ -155,6 +155,18 @@ ul.skillsnlang li {
     margin-right: auto;
 }
 
+.card:hover {
+    width: 160px;
+    height: 260px;
+    border: #666668 solid;
+}
+
+.card:active {
+    width: 160px;
+    height: 260px;
+    border: #666668 solid;
+}
+
 .pic {
     height: 50px;
     width: auto;
