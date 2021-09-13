@@ -1,2 +1,2 @@
-plants
-cats
+skills
+interests
