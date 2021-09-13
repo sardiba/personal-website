@@ -16,7 +16,7 @@ header {
 
 h1 {
     color: #666668;
-    font-size: 30px;
+    font-size: 7vw;
     font-weight: bold;
     font-family: 'caveat', 'century gothic';
     text-align: left;
@@ -30,7 +30,7 @@ h2 {
     color: #ffffff;
     background-color: rgb(154 117 70);
     font-family: 'caveat', 'century gothic';
-    font-size: 25px;
+    font-size: 4vw;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 25px;
@@ -68,7 +68,8 @@ p {
     background-color: rgb(154 117 70);
     color: #ffffff;
     padding: 0.5rem 3rem;
-    border-radius: 7px;
+    border-radius: 0.5rem;
+    font-size: 2vw;
 }
 
 nav {
@@ -305,9 +306,16 @@ ul.hobbies li {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #socmedsection {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        padding: 5vw 5vh;
+        margin: 5vw 5vh;
     }
 }
