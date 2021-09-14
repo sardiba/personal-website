@@ -72,6 +72,7 @@
         
         p {
             max-width: 100%;
+            color: #5f5e5e;
             font-size: 1em;
             margin-left: auto;
             margin-right: auto;
@@ -193,6 +194,7 @@
             margin-top: 10px;
             margin-left: auto;
             margin-right: auto;
+            opacity: 50%;
         }
         
         .description {
@@ -203,7 +205,7 @@
             line-height: 19px;
             letter-spacing: 0.05em;
             text-transform: uppercase;
-            color: #202020;
+            color: #424141;
             /* Inside Auto Layout */
             flex: none;
             flex-grow: 0;
